@@ -1,0 +1,20 @@
+.box {
+  overflow: hidden;
+}
+@media (min-width: 875px) {
+  .section__box {
+    display: flex;
+  }
+  .box {
+    max-height: fit-content;
+  }
+  .box__content {
+    width: 100vw;
+  }
+  .box__content-text {
+    max-width: 40vw;
+  }
+  .video-link {
+    margin: 1rem;
+  }
+}

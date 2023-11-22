@@ -1,0 +1,124 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Space Mono", monospace;
+  color: white;
+}
+
+:root {
+  --color-yellow: #ffd43a;
+  --color-green: #00bd64;
+  --color-red: #ff4b1e;
+  --color-purple: #8a00ff;
+  --color-blue: #69d4fa;
+  --color-pink: #f091ea;
+  --color-bg: #1d1d1d;
+}
+
+/* Global */
+body {
+  background-image: url(/img/global/stars.jpeg);
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Color*/
+/* Color purple */
+.border-purple {
+  border: var(--color-purple) 4px solid;
+}
+.border-purple .box__title {
+  background-color: var(--color-purple);
+  padding-left: 1rem;
+}
+.border-purple span {
+  color: var(--color-purple);
+}
+.bg-purple {
+  background-color: var(--color-purple);
+}
+
+/* Color yellow */
+.border-yellow {
+  border: var(--color-yellow) 4px solid;
+}
+.border-yellow .box__title {
+  background-color: var(--color-yellow);
+  padding-left: 1rem;
+}
+.border-yellow span {
+  color: var(--color-yellow);
+}
+.bg-green {
+  color: var(--color-green);
+}
+
+/* Color blue */
+.border-blue {
+  border: var(--color-blue) 4px solid;
+}
+.border-blue .box__title {
+  background-color: var(--color-blue);
+  padding-left: 1rem;
+}
+.border-blue span {
+  color: var(--color-blue);
+}
+.bg-blue {
+  background-color: var(--color-blue);
+}
+
+/* Color green */
+.border-green {
+  border: var(--color-green) 4px solid;
+}
+.border-green .box__title {
+  background-color: var(--color-green);
+  padding-left: 1rem;
+}
+.border-green span {
+  color: var(--color-green);
+}
+.bg-green {
+  background-color: var(--color-green);
+}
+
+/* Color green */
+.border-pink {
+  border: var(--color-pink) 4px solid;
+}
+.border-pink .box__title {
+  background-color: var(--color-pink);
+  padding-left: 1rem;
+}
+.border-pink span {
+  color: var(--color-pink);
+}
+.bg-pink {
+  background-color: var(--color-pink);
+}
+
+/* Footer */
+footer {
+  background-image: url(/img/global/stars.jpeg);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 12px;
+  z-index: 3;
+}
+/* Responsive */
+@media (min-width: 875px) {
+  /* responsive- global */
+  body {
+    margin: 0;
+  }
+}
